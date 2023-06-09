@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastra Empresas</title>
+    
+</head>
+<body background="img/fundo1.gif">
+
+    <div class="formscenter">
+        <form action="https://api.staticforms.xyz/submit" method="post" class="form">
+            <input type="hidden" name="accessKey" value="07a694ad-4412-4036-b42a-99f43f3ccf80">
+            <label for="inputnomedaempresa">Nome da empresa:</label>
+            <input type="text" name="name" id="inputnome" required maxlength="30" minlength="2">
+            <span></span>
+            <br>
+
+            <label for="inputemail">Email de contato:</label>
+            <input type="text" name="email" id="inputemail" required maxlength="50" minlength="10">
+            <span></span>
+            <br>
+
+            <label for="inputnomedaempresa">Celular:</label>
+            <input type="text" name="phone" id="inputmensage" required maxlength="120">
+            <span></span>
+            <br><br><br>
+
+            <button id="btenviar">Enviar Informações</button>
+
+        </form>
+
+    </div>
+    
+    <script src="src/Script.js"></script>
+</body>
+</html>

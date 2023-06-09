@@ -1,0 +1,41 @@
+.qr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.input {
+  position: relative;
+  top: 0%;
+  font-family: "Courier New", Courier, monospace;
+}
+#head {
+  background-color: black;
+  text-align: center;
+  top: 0;
+}
+#head h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  display: inline;
+}
+#head img {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 5px;
+}
+#btgerar {
+  border: none;
+  background: rgba(111, 0, 255, 0.5);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+#btgerar:hover {
+  border: none;
+  background: rgba(111, 0, 255, 0.5);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}

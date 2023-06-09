@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(to left, darkblue, rgb(47, 47, 255), rgb(0, 124, 240), skyblue, white);
+} 
+#titulo1 {
+    font-family: monospace;
+    display: inline;
+}
+#caixainte {
+    font-family: monospace;
+}
+#imgtopo {
+    position:absolute;
+    right: 200px;
+    width: 300px;
+    
+}
+#imgbaixo {
+width: 50px;
+display: inline;
+margin-top: 0px;
+}
+ 

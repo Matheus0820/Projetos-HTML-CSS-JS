@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-size: 100% 100%;
+}
+.pinelcontrol {
+  background-color: rgba(3, 248, 16, 0.582);
+  height: 150px;
+  width: 150px;
+}
+h3,
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+#btc {
+  background: white;
+  font-family: "Courier New", Courier, monospace;
+  border: none;
+}
+#bte {
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  border: none;
+}
+#bodyt {
+  width: 300px;
+  height: 300px;
+}

@@ -1,0 +1,62 @@
+/*body*/
+body {
+  margin: 0%;
+  margin-top: 0%;
+  padding: 0%;
+}
+/*Cabecario*/
+.cabecario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  /*background-color: aqua; */
+  width: 100%;
+  position: relative;
+  border-bottom: 3px solid rgb(0, 204, 255);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ47u_lXnmvBTHt3k76ph-ae3xgHHyvN6GDqQ&usqp=CAU);
+  background-size: 50% 50%;
+}
+.cabecario #titulo {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+/*Conteudo*/
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 56vh;
+}
+.conteudo p {
+  display: inline;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin: 3px;
+}
+#tanimado {
+  color: blue;
+}
+
+/*Pinel de Serviços*/
+
+.pineldeservicos {
+  min-height: 30vh;
+  background-color: rgb(0, 204, 255);
+  border-top: 3px solid black;
+}
+
+.pineldeservicos #titulop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pineldeservicos #titulop p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}

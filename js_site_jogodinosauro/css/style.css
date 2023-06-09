@@ -1,0 +1,49 @@
+#player > img {
+  width: 40px;
+}
+#cacto img {
+  width: 30px;
+}
+#game {
+  border: 2px solid black;
+  width: 589px;
+  height: 80px;
+  position: absolute;
+  top: 40%;
+  margin-left: 30%;
+}
+#cacto {
+  position: relative;
+  left: 100%;
+  top: 9px;
+  animation: cacto 10s infinite linear;
+}
+#player {
+  position: relative;
+  top: 40px;
+}
+@keyframes cacto {
+  0% {
+    left: 589px;
+  }
+  100% {
+    left: -40px;
+  }
+}
+.jump {
+  animation: jump 3000ms linear;
+}
+@keyframes jump {
+  0% {
+    top: 40px;
+  }
+  50% {
+    top: 2px;
+  }
+  100% {
+    top: 40px;
+  }
+}
+#send {
+  visibility: hidden;
+}

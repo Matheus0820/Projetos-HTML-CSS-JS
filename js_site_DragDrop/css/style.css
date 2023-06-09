@@ -1,0 +1,19 @@
+.lugarSoltar {
+  width: 220px;
+  height: 120px;
+  background-color: black;
+  position: relative;
+  left: 40%;
+  margin-top: 20%;
+}
+div {
+  background: skyblue;
+  text-align: center;
+  width: 90px;
+  height: 20px;
+  margin-top: 3px;
+  font-family: "Courier New", Courier, monospace;
+}
+.houver {
+  background: rgb(58, 58, 58);
+}

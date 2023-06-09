@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-size: 100% 100%;
+}
+.formscenter {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: rgba(0, 255, 255, 0.4);
+  border: 1px solid rgb(255, 255, 255);
+}
+label {
+  font-family: "Courier New", Courier, monospace;
+}
+#btenviar {
+  background: rgba(0, 255, 255, 0);
+  border: 1px solid white;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 15px;
+}
+#btenviar:hover {
+  background: rgba(11, 255, 255, 0.5);
+  border: 1px solid white;
+  font-family: "Courier New", Courier, monospace;
+  color: purple;
+  font-size: 16px;
+}

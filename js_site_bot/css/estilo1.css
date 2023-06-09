@@ -1,0 +1,41 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+#titulocabe {
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    font-family: monospace;
+    background-color: blue; 
+    color: cornsilk;
+    margin: 5px, 5px;
+}
+#botimg1 {
+    display: inline;
+    height: 90px;
+    width: 90px;
+}
+#textobot1 {
+    display: inline;
+    margin-left: 10px;
+    font-family: monospace;
+}
+p {
+    font-family: monospace;
+}
+
+#script1 {
+    inline-size: 60%;
+    background-color: rgba(122, 122, 122, 0.5)
+}
+
+#confirmaçãologin {
+    font-family: monospace;
+}
+
+#confirmaçãologin:hover {
+    color: blue;
+    font-size: medium;
+    font-family: monospace;
+}
